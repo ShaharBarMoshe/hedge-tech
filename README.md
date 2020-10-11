@@ -7,7 +7,7 @@ This is a home test for hedge tech
 
 ```bash
 mvn clean install
-java -jar target/hedge-tech-0.0.1-SNAPSHOT.jar --cloud.aws.credentials.access-key="<ACCESS_KEY>" --cloud.aws.credentials.secret-key="<SECRET_KEY>"
+java -jar target/hedge-tech-0.0.1-SNAPSHOT.jar --cloud.aws.credentials.access-key="<ACCESS_KEY>" --cloud.aws.credentials.secret-key="<SECRET_KEY>" --spring.datasource.password="<DATABASE_PASS>"
 
 cd src/main/my-app
 npm start

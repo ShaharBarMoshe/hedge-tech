@@ -4,7 +4,6 @@ spring:
   application:
     name: hedge-tech
   datasource:
-    password: YGqvrASVJf64T5pRwKFU
     username: postgres
     
     url: jdbc:postgresql://prog-test-db.cmpmwighyudb.eu-west-1.rds.amazonaws.com:5432/example
