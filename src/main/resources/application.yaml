@@ -23,9 +23,7 @@ cloud:
       static: eu-west-1
     stack:
       auto: false
-    credentials:
-      secret-key: CywKm1ftH2MH6oUGAQ+PCNWzsc/Ar/RuiSRl6tx/
-      access-key: AKIAY2WTUAQRNXNOTDNC
+    
 s3:
   bucket:
     name: ht-prog-test

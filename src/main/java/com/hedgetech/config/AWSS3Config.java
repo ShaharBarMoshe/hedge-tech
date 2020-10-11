@@ -30,8 +30,4 @@ public class AWSS3Config {
 				.withCredentials(new AWSStaticCredentialsProvider(basicAWSCredentials)).build();
 	}
 
-//	@Bean
-//	S3ClientService s3ClientService() {
-//		return new S3ClientService();
-//	}
 }
