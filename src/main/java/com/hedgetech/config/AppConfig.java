@@ -2,6 +2,7 @@ package com.hedgetech.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 
 import service.MarketService;
 import service.PortfolioService;
@@ -18,4 +19,12 @@ public class AppConfig {
 	public MarketService marketService() {
 		return new MarketService();
 	}
+	
+	@Bean
+	public static PropertySourcesPlaceholderConfigurer propertySourcesPlaceholderConfigurer() {
+	    PropertySourcesPlaceholderConfigurer propertySourcesPlaceholderConfigurer = new PropertySourcesPlaceholderConfigurer();
+	    propertySourcesPlaceholderConfigurer.setIgnoreUnresolvablePlaceholders(true);
+	    return propertySourcesPlaceholderConfigurer;
+	}
+
 }

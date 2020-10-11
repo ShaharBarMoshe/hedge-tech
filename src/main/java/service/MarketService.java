@@ -21,7 +21,7 @@ public class MarketService {
 	@Autowired
 	PortfolioService portfolioService;
 	
-	@Value("${hist}")
+	@Value("${hist: 90}")
 	String hist;
 
 	

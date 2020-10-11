@@ -31,7 +31,7 @@ public class ScheduledTasks {
 	
 	private static final SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
 
-	@Scheduled(fixedRateString ="${nmil}") // from the aws config file
+	@Scheduled(fixedRateString ="${nmil:2000}") // from the aws config file
 	public void scheduleTaskWithFixedRate() {
 		protfolioService.logProtfolioBeforeDate(format);
 	}
