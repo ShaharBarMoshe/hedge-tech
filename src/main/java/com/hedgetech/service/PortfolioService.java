@@ -1,4 +1,5 @@
-package service;
+package com.hedgetech.service;
+
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

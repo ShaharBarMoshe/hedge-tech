@@ -8,8 +8,8 @@ import com.amazonaws.regions.Regions;
 import com.amazonaws.services.s3.AmazonS3;
 import com.amazonaws.services.s3.AmazonS3ClientBuilder;
 import com.google.gson.JsonElement;
+import com.hedgetech.service.aws.S3ClientService;
 
-import service.aws.S3ClientService;
 
 /**
  * Utility for using AWS bucket

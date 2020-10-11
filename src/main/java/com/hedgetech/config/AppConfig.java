@@ -4,8 +4,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 
-import service.MarketService;
-import service.PortfolioService;
+import com.hedgetech.service.MarketService;
+import com.hedgetech.service.PortfolioService;
+
 
 @Configuration
 public class AppConfig {

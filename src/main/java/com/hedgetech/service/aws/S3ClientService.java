@@ -1,4 +1,5 @@
-package service.aws;
+package com.hedgetech.service.aws;
+
 
 import java.io.IOException;
 import java.io.InputStreamReader;

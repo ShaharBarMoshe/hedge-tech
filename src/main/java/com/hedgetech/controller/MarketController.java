@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.hedgetech.model.market.Market;
+import com.hedgetech.service.MarketService;
 
-import service.MarketService;
 @CrossOrigin("*")
 @RestController
 public class MarketController {
